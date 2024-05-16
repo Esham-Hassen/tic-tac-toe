@@ -1,0 +1,18 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image {
+    margin: 10px; 
+    width: 430px; /* Maximale Breite der Bilder */
+    height: auto;
+    cursor: pointer;
+    object-fit: cover;
+    transition: transform 0.075ms ease-in-out;
+}
+
+.image:hover {
+    transform: scale(1.05);
+}
+
